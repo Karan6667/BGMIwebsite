@@ -1,0 +1,208 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  .hero {
+    background-image: url(1.jpg);
+    color: white;
+    height: 620px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .services {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .services h1 {
+    margin-bottom: 30px;
+  }
+  
+  .service {
+    margin-bottom: 30px;
+  }
+  
+  .service img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .service h2 {
+    margin-top: 15px;
+  }
+  
+  .service p {
+    margin-top: 10px;
+  }
+  p{
+    font-family: fantasy;
+  }
+  .about {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about h1 {
+    margin-bottom: 30px;
+  }
+  
+  .about p {
+    margin-bottom: 20px;
+  }
+  .about {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.prize-pool {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.prizes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.prize {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.prize h3 {
+  color: #333;
+}
+
+.prize p {
+  color: #666;
+  margin-top: 10px;
+}
+.new-section {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.section-image {
+  flex: 1;
+  text-align: center;
+}
+
+.section-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+leaderboard {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background-color: #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
